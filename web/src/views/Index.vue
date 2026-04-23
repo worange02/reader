@@ -20,13 +20,13 @@
     >
       <div class="navigation-inner-wrapper">
         <div class="navigation-title">
-          阅读
+          汉堡
           <span class="version-text" @click="updateForce">{{
             $store.state.version
           }}</span>
         </div>
         <div class="navigation-sub-title">
-          清风不识字，何故乱翻书
+          层层叠起的微型宇宙
         </div>
         <div class="search-wrapper">
           <el-input
