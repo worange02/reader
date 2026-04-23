@@ -1173,7 +1173,7 @@ export default {
     }
   },
   mounted() {
-    document.title = "阅读";
+    document.title = "汉堡";
     this.navigationClass =
       this.collapseMenu && !this.showNavigation ? "navigation-hidden" : "";
     window.shelfPage = this;
@@ -1192,7 +1192,7 @@ export default {
     });
   },
   activated() {
-    document.title = "阅读";
+    document.title = "汉堡";
     this.scanCacheStorage();
   },
   methods: {
